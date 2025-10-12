@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .image {
+        -webkit-mask-image: url(./assets/o.png);
+        -webkit-mask-position: center;
+        -webkit-mask-repeat: no-repeat;
+        height: 100%;
+    }
+}
